@@ -10,7 +10,7 @@ Lua LifeAI is a Lua binding for the LifeAI open-source C++ library for AI decisi
 Demo will be recreated in Lua after some time. You can download the pre-built binaries in Releases page.
 
 # Example
-'''lua
+```lua
 local lai = require "lifeai"
 
 lai.Reset();                     // Reset data to defaults
@@ -18,7 +18,7 @@ lai.Load("lai_load.txt");        // Load a file
 lai.UpdateAll();
 lai.SetSave(lai_best, LAI_TRUE); // Best action data is not saved by default, so set to save
 lai.Save("lai_save.txt");        // Save a file
-'''
+```
 
 # License
 
