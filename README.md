@@ -16,7 +16,7 @@ local lai = require "lifeai"
 lai.Reset()                      -- Reset data to defaults
 lai.Load("lai_load.txt")         -- Load a file
 lai.UpdateAll()
-lai.SetSave(lai_best, LAI_TRUE)  -- Best action data is not saved by default, so set to save
+lai.SetSave(lai.best, true)      -- Best action data is not saved by default, so set to save
 lai.Save("lai_save.txt")         -- Save a file
 ```
 
